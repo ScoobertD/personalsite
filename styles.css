@@ -1,0 +1,151 @@
+/***********TAG SELECTORS***********/
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    text-align: center;
+    color: #40514e;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+    margin: 50px auto 0 auto;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
+    font-family: 'Montserrant', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #eaf6f6;
+}
+
+hr {
+    border-color: #303a52;
+    border-width: 5px;
+    border-style: dotted none none;
+    height: 0px;
+    width: 4%;
+    margin: 100px auto;
+}
+
+p {
+    line-height: 2;
+
+}
+
+/**********Class SELECTORS**********/
+.topContainer {
+    background-color: #9fdfcd;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middleContainer {
+    margin: 100px 0px;
+}
+
+.bottomContainer {
+    background-color: #9fdfcd;
+    padding: 50px 0 20px;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.topCloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottomCloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.profilePicture {
+    border-radius: 100%;
+    border: solid 2px;
+    width: 200px;
+}
+
+.dev {
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+}
+
+.server {
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+}
+
+.skillRow {
+    margin: 100px auto;
+    width: 50%;
+    text-align: left;
+}
+
+.bio {
+    width: 30%;
+    margin: auto;
+}
+
+.contactMessage{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    box-shadow: inset 0px 1px 0px 0px #bee2f9;
+    background: linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+    background-color: #63b8ee;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #11999e;
+}
+
+.btn:hover {
+    background: linear-gradient(to bottom, #468ccf 5%, #63b8ee 100%);
+    background-color: #468ccf;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+}
+
+.copyright{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+/***********ID SELECTORS***********/
